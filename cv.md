@@ -14,7 +14,7 @@ I'm an leading process engineer at fuel and catalitic production facilities. I w
 
 ### Skills
 
-Beginer of:
+Beginner of:
 - HTML;
 - CSS;
 - JavaScript;
@@ -49,3 +49,9 @@ function getParticipants(handshakes){
 
 - **Belarusian State Technological University**, Organic Substances Technology Faculty, “Chemical Technology of Organic Substances, Materials and Goods” (minor: “Technology of Basic Organic and Petrochemical Synthesis”). *Engineer chemical technologist*
 - **Belarusian State Economic University**, Higher School of Management and Business, "Economics and management at enterprises". *Manager economist*
+- **RSSchool** in process...
+-------------------
+### Languages
+- Russian;
+- Belarussian;
+- English - level A2.
