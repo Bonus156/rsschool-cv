@@ -1,2 +1,3 @@
 # rsschool-cv
-https://Bonus156.github.io/rsschool-cv/cv
+
+https://Bonus156.github.io/rsschool-cv/
