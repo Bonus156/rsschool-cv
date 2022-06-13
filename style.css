@@ -28,7 +28,7 @@ a {
 
 .container {
     max-width: 1280px;
-    margin: 0 auto;
+    margin: 0 20px;
   }
 
 .nav-list {
@@ -36,6 +36,7 @@ a {
     justify-content: flex-end;
     align-items: center;
     list-style: none;
+    
   }
 
 .nav-link {
@@ -49,15 +50,50 @@ a {
 .nav-link:hover {
     color: #4d2323;
   }
+  .hamburger {
+    display: none;
+    }
+    .hamburger .line{
+      width: 30px;
+      height: 2px;
+      background-color: #f1cdb3;
+      display: block;
+      margin: 8px auto;
+      -webkit-transition: all 0.7s ease-in-out;
+      -o-transition: all 0.7s ease-in-out;
+      transition: all 0.7s ease-in-out;
+    }
+    
+    .hamburger:hover{
+      cursor: pointer;
+    }
+    
+    .hamburger{
+      margin: 0 40px;
+      -webkit-transition: all 0.7s ease-in-out;
+      -o-transition: all 0.7s ease-in-out;
+      transition: all 0.7s ease-in-out;
+    }
+    
+    .hamburger.is-active{
+      -webkit-transform: rotate(90deg);
+      -ms-transform: rotate(90deg);
+      -o-transform: rotate(90deg);
+      transform: rotate(90deg);
+    }
 
   .main-container {
     display: flex;
     flex-wrap: wrap;
   }
-  
-  .section {
-    width: 50%;
+  h1 {
+    text-transform: uppercase;
   }
+  .section {
+    width: 48%;
+  }
+
+
   #profile {
     display: flex;
     justify-content: space-around;
@@ -67,6 +103,9 @@ a {
   .foto {
     max-width: 300px;
     
+  }
+  .github-logo {
+    transition: .3s;
   }
   .gh-logo {
     max-width: 70px;
@@ -102,5 +141,51 @@ a {
     .section {
       width: 100%;
     }
-
+    #profile {
+      flex-direction: column-reverse;
+    }
+    .header {
+      overflow-x: hidden;
+      }
+        
+      .nav {
+      position: absolute;
+      top: 0px;
+      right: -320px;
+      overflow-x: hidden;
+      z-index: 1;
+      width: 320px;
+      height: 100%;
+      background-color: #292929;
+      transition: 0.7s;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      }
+    
+      .open {
+        right: 0px;
+      }
+      .double {
+      margin-right: 80px;
+      margin-top: 20px;
+      display: block;
+      }
+      .nav-item {
+      padding: 0;
+      }
+      
+      .nav-list {
+      flex-direction: column;
+      justify-content: space-evenly;
+      text-align: center;
+      height: 100vh;
+      font-size: 32px;
+      line-height: 160%;
+      }
+    
+      .hamburger {
+      display: block;
+      z-index: 2;
+      }
   }
