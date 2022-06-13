@@ -36,7 +36,7 @@ a:hover {
 
 .container {
     max-width: 1280px;
-    margin: 0 30px;
+    margin: 0 auto;
 }
 .navigat {
   display: flex;
@@ -107,7 +107,8 @@ a:hover {
   }
 
   .section {
-    width: 48%;
+    width: 50%;
+    padding: 0 20px;
   }
 
 
